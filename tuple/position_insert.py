@@ -6,7 +6,7 @@ print(a)
 l=int(input("Enter the value to be inserted: "))
 print(type(l))
 
-new_num = tuple(l)
+new_num = (l,)
 pos= int(input("Enter the position where you want to insert the value: "))
 temp = a[0:pos-1]
 print(temp)
