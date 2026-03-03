@@ -13,3 +13,6 @@ print(temp)
 
 temp = temp + new_num
 print(temp)
+
+a= temp + a[pos-1:]
+print(a)
