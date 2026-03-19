@@ -27,32 +27,29 @@
 # 3. write() : it is used to write data to a file
 # 4. close() : it is used to close a file
 
-# create file and store the data by accepting from user
+# # create file and store the data by accepting from user
 
-file_name = open('file.txt' , 'w')
-data = input("Enter the data to be stored in the file: ")
-file_name.write(data)
-file_name.close()
+# file_name = open('file.txt' , 'w')
+# data = input("Enter the data to be stored in the file: ")
+# file_name.write(data)
+# file_name.close()
 
-#  read the data from the file and display it on the console
-f = open('file.txt' , 'r')
-data = f.read()
-print("Data from the file: ", data)
-f.close()
+# # read the data from the file and display it on the console
+# f = open('file.txt' , 'r')
+# data = f.read()
+# print("Data from the file: ", data)
+# f.close()
 
-# accept nultiple lines of data from user and store it in a file;
-file_name = open('file.txt' , 'w')
-n = int(input("Enter the number of lines you want to store in the file: "))
-s =''
-while s!='$':
-    data = input("Enter the data to be stored in the file (enter $ to stop): ")
-    if data == '$':
-        break
-    file_name.write(data + '\n')
-file_name.close()
-
-
-
+# # accept nultiple lines of data from user and store it in a file;
+# file_name = open('file.txt' , 'w')
+# n = int(input("Enter the number of lines you want to store in the file: "))
+# s =''
+# while s!='$':
+#     data = input("Enter the data to be stored in the file (enter $ to stop): ")
+#     if data == '$':
+#         break
+#     file_name.write(data + '\n')
+# file_name.close()
 
 # uasing for loop
 # for i in range(n):
