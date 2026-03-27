@@ -24,12 +24,11 @@
 # - 2: It means the end of the file.
 
 # tell() : it is used to get the current position of the file pointer
-# syntax: file_object.tell()
+# syntax: file_object.tell()    
 # It returns the current position of the file pointer in bytes from the beginning of the file.
 
 # purpose: of seek() and tell() is to manipulate the file pointer in a file. seek() allows you to move the file pointer to a specific position in the file, 
-# while tell() allows you to get the current position of the file pointer. This can be useful for various operations such as reading or writing data at specific locations in the file, or for navigating through the file in a non-linear way.
-
+# while tell() allows you to get the current position of the file pointer. This can be useful for various operations such as reading or writing data at specific locations in the file, or for navigating through the file in a non-linear way.     
 
 # create a binary file add data into it 
 # ask user the position of the data to display
@@ -43,12 +42,13 @@
 #         len = len(name)
 #         name = name + (reco_len - len) * ' '
 #         name = name.encode()  # encode() : converts nrml data to bytes
-#         f.write(name)
+#         f.write(name) 
 
-# reco_len = 10
-# with open('hardware.bin','rb') as f:
-#     n = int(input('enter record no od the data you want to see:'))
-#     f.seek(reco_len*(n-1)) # removes the file pointer to the end of the n-1th record
-#     s = f.read(reco_len) # get the nth record with 10 characters
-#     print(s.decode()) # decodes the data to display data from bin file
+    
+reco_len = 10
+with open('hardware.bin','rb') as f:
+    n = int(input('enter record no od the data you want to see:'))
+    f.seek(reco_len*(n-1)) # removes the file pointer to the end of the n-1th record
+    s = f.read(reco_len) # get the nth record with 10 characters
+    print(s.decode()) # decodes the data to display data from bin file
 

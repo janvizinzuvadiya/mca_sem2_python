@@ -15,7 +15,7 @@
 # x : allows to create a new file and write data in it. if the file already exists then it will raise an error
     # it open the file in exclusive mode creation of file will fail if the file already exists 
 # + : it allows to read and write data in a file with w,r,a modes
-
+    
 # close() : it is used to close a file
 # syntax: file_handler.close()
 # it is important to close a file after performing operations on it to free up system resources and avoid potential data loss or corruption.
@@ -33,7 +33,7 @@
 # data = input("Enter the data to be stored in the file: ")
 # file_name.write(data)
 # file_name.close()
-
+    
 # # read the data from the file and display it on the console
 # f = open('file.txt' , 'r')
 # data = f.read()

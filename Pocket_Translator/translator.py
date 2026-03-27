@@ -10,3 +10,5 @@ translator = GoogleTranslator(source='auto', target='hindi')
 result = translator.translate("Python is a powerful language!")
 
 print(result) # Output: पायथन शक्तिशाली है!
+
+
