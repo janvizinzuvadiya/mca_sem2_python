@@ -1,0 +1,47 @@
+Practice set 6
+1. Create a file with file name sample.txt, accept some data from the user and store it in the file.
+2. Display the data stored in the sample.txt file (created in question 1).
+3. Accept some data from the user and append it into the file sample.txt (created in question 1), also the data in the file.
+4. Accept the file name from the user, check the availability of the file: i). If the file exists display the data on the screen, ii). If the file is not available, display the appropriate message.
+5. Accept the file name from the user, check the availability of the file:
+a. If the file exists, display: i
+). No. of characters,
+ii). No. of words and
+iii). No. of lines
+b. If the file does exist, than display the appropriate message.
+6. Create and open the binary file with 'with' option. Store names of all the subjects you study in semester 2. Ask user to enter the subject number they wanted to see and display that subject name.
+7. Create a file named 'img1', store an image into it. Open another file named 'img2', copy the same image as in the file 'img1'. Also store both files into the zip file named 'imp_img.
+'marks.dat'. 8. Create a file with 'with' option, name it
+i). Accept subject name and marks from the user, store the data in the file.
+ii). Give three options
+to the user: a). To view whole file, b). Accept and edit the marks of a subject user want to
+change.
+iii). Exit
+9. Create a regular expression that:
+a). Identifies and display the string starting with 's' and having 4 characters.
+b). Splits the string where some special characters are found.
+c). Display the word starting with number.
+d). Display the word having 3 or 4 or 5 characters.
+e). Display only the dates from the string.
+f). Create a string with name of the person and his Aadhar number, display only Aadhar
+number.
+g). Display all the words that starts with 'at' or 'ap'.
+h). Check if the string starts with 'at' than display appropriate message and otherwise.
+10. Do as directed:
+a). Name the package used to deal with data frame.
+b). Name the package used to deal with data .xlsx file.
+c). Name the function used to read the .csv file.
+d). Name the function used to read the xlsx file.
+e). Name the function used to read the tuple.
+11. Create a dictionary which stores (at least 10 records)empid, name, city, salary and perform
+following operations:
+a). Display first three records.
+b). Display last five records
+c). Display only Name and City.
+d). Display employee who belongs to Mumbai
+e). Display employee name who belongs to Mumbai
+f). Display employee whose salary is more than 25000
+12. Create an xlsx file store marks of five subjects, plot the data on the bar graph.
+13. Take five income source of the Government and display it on the pie chart.
+14. Draw the line chart representing BSE (Bombay Stock Exchange) index in last 10 years.
+15. Plot the grouped bar graph using the appropriate data.
