@@ -1,0 +1,39 @@
+1. The Palindrome Checker
+The Task: Check if a string reads the same forward and backward (e.g., "radar").
+Logic Goal: Understand string slicing and comparison.
+
+2. Vowel & Consonant Counter
+The Task: Given a string, count how many vowels (a, e, i, o, u) and consonants are present.
+Logic Goal: Practice looping and membership testing (if char in "aeiou").
+
+3. Remove Duplicate Characters
+The Task: Remove all duplicate characters from a string so that every character appears only once (e.g., "programming" becomes "progamin").
+Logic Goal: Learn to use auxiliary data structures like Sets or temporary lists to track seen items.
+
+4. Word Frequency Tracker
+The Task: Count how many times each word appears in a sentence.
+Logic Goal: Understand the .split() method and how to use Dictionaries (essential for LLM tokenization).
+
+5. String Compression (Basic)
+The Task: Convert "AAABBC" into "3A2B1C".
+Logic Goal: Master "Look-ahead" logic—comparing the current character with the next one in a loop.
+
+6. Anagram Detector
+The Task: Check if two strings contain the same characters in a different order (e.g., "listen" and "silent").
+Logic Goal: Learn about sorting algorithms and character frequency mapping.
+
+7. Find the Longest Word
+The Task: In a sentence, identify the longest word and its length.
+Logic Goal: Practice "Maximum" logic—initializing a variable and updating it as you find a larger value.
+
+8. Toggle Case Without .swapcase()
+The Task: Convert uppercase to lowercase and vice versa without using the built-in function.
+Logic Goal: Understand ASCII values and how the CPU represents text as numbers.
+
+9. Substring Search Without .find()
+The Task: Manually check if a small string exists within a larger string.
+Logic Goal: Practice Nested Loops (a loop inside a loop) and index management.
+
+10. Reverse Words, Not Characters
+The Task: Convert "Python is fun" into "fun is Python".
+Logic Goal: Master the combination of .split(), slicing [::-1], and " ".join().
