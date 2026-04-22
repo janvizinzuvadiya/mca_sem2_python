@@ -11,7 +11,7 @@ dictionary, b. Display the name of Author,
 c. Display the Bookid
 d. Display the length of the dictionary, e. Update the price, f. Insert 'year' as the new key
 and display the dictionary again.
-I
+
 8. Create a numeric array and perform following operations on it: Add 2 to each elements, subtract 3 from each element, multiply each element with 3, Divide each element by 2, Find max and min, find the average of all elements.
 9. Create a numeric array and do the following: append the element, pop the element, insert an element at the desired position, reverse the elements in the array, convert the array to list.
 10. Accept numeric elements from the user, store it to the array and display. Ask user to enter search element. Display the position of the searched element.

@@ -10,3 +10,5 @@ srch = input('enter string to find')
 t = false
 for i in range(Len(s)):
     if srch== s[i]
+        
+

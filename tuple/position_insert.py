@@ -2,6 +2,7 @@
 
 a = (1, 2, 3, 4, 5)
 print(a)
+# print(id(a))
 
 l=int(input("Enter the value to be inserted: "))
 print(type(l))
@@ -16,3 +17,4 @@ print(temp)
 
 a= temp + a[pos-1:]
 print(a)
+# print(id(a))

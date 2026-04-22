@@ -4,19 +4,20 @@ Practice set 6
 3. Accept some data from the user and append it into the file sample.txt (created in question 1), also the data in the file.
 4. Accept the file name from the user, check the availability of the file: i). If the file exists display the data on the screen, ii). If the file is not available, display the appropriate message.
 5. Accept the file name from the user, check the availability of the file:
-a. If the file exists, display: i
-). No. of characters,
-ii). No. of words and
-iii). No. of lines
-b. If the file does exist, than display the appropriate message.
+    a. If the file exists, display:
+        i). No. of characters,
+        ii). No. of words and
+        iii). No. of lines
+    b. If the file does exist, than display the appropriate message.
 6. Create and open the binary file with 'with' option. Store names of all the subjects you study in semester 2. Ask user to enter the subject number they wanted to see and display that subject name.
 7. Create a file named 'img1', store an image into it. Open another file named 'img2', copy the same image as in the file 'img1'. Also store both files into the zip file named 'imp_img.
-'marks.dat'. 8. Create a file with 'with' option, name it
-i). Accept subject name and marks from the user, store the data in the file.
-ii). Give three options
-to the user: a). To view whole file, b). Accept and edit the marks of a subject user want to
-change.
-iii). Exit
+
+8. Create a file with 'with' option, name it 'marks.dat'. 
+    i). Accept subject name and marks from the user, store the data in the file.
+    ii). Give three options to the user:
+        a). To view whole file,  
+        b). Accept and edit the marks of a subject user want to change.
+    iii). Exit
 9. Create a regular expression that:
 a). Identifies and display the string starting with 's' and having 4 characters.
 b). Splits the string where some special characters are found.
