@@ -10,10 +10,11 @@ def main():
     print("Let's modify a tuple.\n")
 
     my_tuple = (10,20,30,40,50)
-
     print(f"Original tuple : {my_tuple}")
 
-    my_tuple[2] = 25
+    ls = list(my_tuple)
+    ls[2] = 25
+    my_tuple = tuple(ls)
 
     print(f"Modified tuple : {my_tuple}")
 

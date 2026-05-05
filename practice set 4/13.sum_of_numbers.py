@@ -13,7 +13,6 @@ def main():
     try:
         print('How many numbers you want to enter?')
         n = int(input("👉 Please enter : "))
-        
     except ValueError:
         print("\n❌ Error: Please enter a valid Number!")
         return
