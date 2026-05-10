@@ -3,7 +3,7 @@
 
 def print_header(heading):
     print('=' * 50)
-    print(heading)
+    print(heading)  
     print('=' * 50)
 
 def main():

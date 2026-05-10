@@ -22,7 +22,7 @@ def main():
         print('\nData in the file :\n')
         f = open('sample.txt','r')
         str = f.read()
-        print(str)
+        print(str)  
         print('-'*50)
         f.close()
 

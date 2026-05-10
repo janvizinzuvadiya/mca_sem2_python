@@ -17,7 +17,7 @@ def main():
         if (os.path.isfile(fname)):
             print('file is available')
 
-            f = open(fname,'r')
+            f = open(fname,'r')     
             str = f.read()
             f.close()
 
