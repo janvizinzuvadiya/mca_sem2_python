@@ -1,8 +1,8 @@
-import mysql.connector
+# import mysql.connector
 
-con = mysql.connector.connect(host='localhost',user='root',password='',database='test')
+# con = mysql.connector.connect(host='localhost',user='root',password='',database='test')
 
-cur = con.cursor()
+# cur = con.cursor()
 
 # cur.execute("create table stud(name varchar(255), age int)")
 
@@ -10,11 +10,11 @@ cur = con.cursor()
 
 # con.commit()
 
-cur.execute('select * from stud where name = %s',('disha',))
+# cur.execute('select * from stud where name = %s',('disha',))
 
-result = cur.fetchall()
+# result = cur.fetchall()
 
-print(result)
+# print(result)
 
 
 
@@ -280,23 +280,24 @@ import matplotlib.pyplot as plt
 
 # 15. Plot the grouped bar graph using the appropriate data.
 
-# import numpy as np
-# import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.pyplot as plt
 
-# x = ['Maths','Physics','Chemistry','Eng']
-# y1 = [80,90,85,70]
-# y2 = [82,88,83,72]
-# y3 = [84,92,87,75]
+x = ['Maths','Physics','Chemistry','Eng']
+y1 = [80,90,85,70]
+y2 = [82,88,83,72]
+y3 = [84,92,87,75]
 
-# xaxis = np.arange(len(x))
+xaxis = np.arange(len(x))
 
-# width = 0.4
+width = 0.4
 
-# plt.bar(xaxis -0.2,y1,width, label='Y1')
-# plt.bar(xaxis +0.2,y2,width, label='Y2')
+plt.bar(xaxis -0.2,y1,width, label='Y1')
+plt.bar(xaxis +0.2,y2,width, label='Y2')
 
-# plt.xlabel('Subjects')
-# plt.ylabel('Marks')
-# plt.title('Marks of 3 Students in 4 Subjects')
+plt.xlabel('Subjects')
+plt.ylabel('Marks')
+# plt.xticks(xaxis,x)
+plt.title('Marks of 3 Students in 4 Subjects')
 
-# plt.show()
+plt.show()
